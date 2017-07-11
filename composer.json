@@ -14,7 +14,6 @@
     ],
     "require":
     {
-        "php": "^5.5 || ^7.0",
-        "plentymarkets/plugin-interface": "dev-beta7"
+        "php": "^5.5 || ^7.0"
     }
 }
