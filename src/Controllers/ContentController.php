@@ -18,8 +18,7 @@ class ContentController extends Controller
 	 */
 	public function sayHello(Twig $twig):string
 	{
-	    $this->getLogger("ContentController_sayHello")->debug("Hallo Welt!");
-	    var_dump("hallo");
+	    $this->getLogger("ContentController_sayHello")->debug("Hallo Welt!", ['tableName' => "HelloWorld"]);
 		return $twig->render('HelloWorld::content.hello');
 	}
 }
