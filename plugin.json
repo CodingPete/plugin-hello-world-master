@@ -3,7 +3,7 @@
       "description":"My first plugin",
       "namespace":"HelloWorld",
       "author":"Christian Moll",
-      "version":"0.1.8",
+      "version":"0.1.9",
       "type":"template",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
       "containers": ["HelloWorld\\Containers\\HelloWorldCronContainer"]
