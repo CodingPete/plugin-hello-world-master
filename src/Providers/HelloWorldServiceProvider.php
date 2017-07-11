@@ -24,7 +24,7 @@ class HelloWorldServiceProvider extends ServiceProvider
 
 	public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) {
         $container->add(
-            CronContainer::EVERY_FIFTEEN_MINUTES,
+            1,
             HelloWorldTestCronHandler::class
         );
     }
