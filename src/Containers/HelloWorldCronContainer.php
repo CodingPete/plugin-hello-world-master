@@ -12,4 +12,15 @@ class HelloWorldCronContainer extends CronContainer
     public function __construct() {
         $this->add(CronContainer::EVERY_FIFTEEN_MINUTES, HelloWorldTestCronHandler::class);
     }
+
+    /**
+     * Use this method to add a handler class and a schedule time for your desired cron event. The action will then be triggered according to the given schedule.
+     */
+    public function add(
+        int $schedule,
+        string $handlerClass
+    )
+    {
+        parent::add($schedule, $handlerClass);
+    }
 }
