@@ -1,8 +1,8 @@
 <?php
 namespace HelloWorld\Providers;
 
+use HelloWorld\CronHandlers\HelloWorldTestCronHandler;
 use Plenty\Log\Services\ReferenceContainer;
-use Plenty\Modules\Cron\Contracts\HelloWorldTestCronHandler;
 use Plenty\Modules\Cron\Services\CronContainer;
 use Plenty\Modules\EventProcedures\Services\EventProceduresService;
 use Plenty\Plugin\ServiceProvider;
