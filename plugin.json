@@ -3,7 +3,7 @@
       "description":"My first plugin",
       "namespace":"HelloWorld",
       "author":"Christian Moll",
-      "version":"0.1.1",
+      "version":"0.1.8",
       "type":"template",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
 }
