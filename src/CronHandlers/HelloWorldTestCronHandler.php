@@ -16,6 +16,6 @@ class HelloWorldTestCronHandler extends CronHandler
 {
     use Loggable;
     public function handle() {
-        $this->getLogger("Cron")->debug("Hallo Welt");
+        $this->getLogger("HelloWorldTestCronHandler_handle")->debug("HelloWorld::migration.successMessage");
     }
 }
