@@ -6,10 +6,13 @@
  * Date: 11.07.2017
  * Time: 11:02
  */
+namespace HelloWorld\CronHandlers;
 
-class HelloWorldTestCronHandler extends \Plenty\Modules\Cron\Contracts\CronHandler
+use \Plenty\Modules\Cron\Contracts\CronHandler;
+
+class HelloWorldTestCronHandler extends CronHandler
 {
-    function handle() {
-        // tuwatt
+    public function handle() {
+
     }
 }
