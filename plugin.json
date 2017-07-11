@@ -5,5 +5,6 @@
       "author":"Christian Moll",
       "version":"0.1.8",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
+      "containers": ["HelloWorld\\Containers\\HelloWorldCronContainer"]
 }
